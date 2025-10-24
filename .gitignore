@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/settings.json
+.idea/
+*.suo
+*.user
