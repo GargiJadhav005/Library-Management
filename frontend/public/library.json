@@ -1,18 +1,66 @@
 {
-"students": [
-  {
-    "roll": 101,
-    "name": "Gargi",
-    "balance": 0,
-    "booksIssued": ""
-  }
-],
-"books": [
-  {
-    "title": "aiehkdk",
-    "author": "eihaiek",
-    "isbn": 5422,
-    "available": true
-  }
-]
+  "students": [
+    { "roll": 75, "name": "Gargi Jadhav", "balance": 498, "booksIssued": "Hello World (Issued);" },
+    { "roll": 76, "name": "Aarav Patel", "balance": 300, "booksIssued": "Clean Code (Returned); The Pragmatic Programmer (Issued);" },
+    { "roll": 77, "name": "Isha Sharma", "balance": 150, "booksIssued": "Deep Work (Issued);" },
+    { "roll": 78, "name": "Rohan Mehta", "balance": 220, "booksIssued": "The Art of Computer Programming (Returned);" },
+    { "roll": 79, "name": "Priya Deshmukh", "balance": 410, "booksIssued": "Atomic Habits (Issued);" },
+    { "roll": 80, "name": "Karan Gupta", "balance": 560, "booksIssued": "Introduction to Algorithms (Issued);" },
+    { "roll": 81, "name": "Ananya Singh", "balance": 480, "booksIssued": "Python Crash Course (Returned);" },
+    { "roll": 82, "name": "Devansh Joshi", "balance": 210, "booksIssued": "Cracking the Coding Interview (Issued);" },
+    { "roll": 83, "name": "Meera Nair", "balance": 350, "booksIssued": "Design Patterns (Returned); Refactoring (Issued);" },
+    { "roll": 84, "name": "Riya Kapoor", "balance": 275, "booksIssued": "The Clean Coder (Issued);" },
+    { "roll": 85, "name": "Sahil Agarwal", "balance": 505, "booksIssued": "Artificial Intelligence: A Modern Approach (Issued);" },
+    { "roll": 86, "name": "Nisha Reddy", "balance": 400, "booksIssued": "Computer Networks (Returned);" },
+    { "roll": 87, "name": "Vikram Bansal", "balance": 295, "booksIssued": "Operating System Concepts (Issued);" },
+    { "roll": 88, "name": "Simran Kaur", "balance": 330, "booksIssued": "Database System Concepts (Issued);" },
+    { "roll": 89, "name": "Tanmay Dey", "balance": 310, "booksIssued": "Code Complete (Returned); Soft Skills (Issued);" },
+    { "roll": 90, "name": "Sneha Chatterjee", "balance": 250, "booksIssued": "Rework (Issued);" },
+    { "roll": 91, "name": "Ayaan Khan", "balance": 380, "booksIssued": "Machine Learning Yearning (Issued);" },
+    { "roll": 92, "name": "Ira Bhattacharya", "balance": 460, "booksIssued": "Introduction to Machine Learning (Issued);" },
+    { "roll": 93, "name": "Manav Jain", "balance": 190, "booksIssued": "The Mythical Man-Month (Returned);" },
+    { "roll": 94, "name": "Diya Ghosh", "balance": 320, "booksIssued": "The Lean Startup (Issued);" },
+    { "roll": 95, "name": "Ritvik Nanda", "balance": 280, "booksIssued": "Hooked (Issued);" },
+    { "roll": 96, "name": "Neha Chauhan", "balance": 260, "booksIssued": "Algorithms Unlocked (Returned);" },
+    { "roll": 97, "name": "Ishan Verma", "balance": 510, "booksIssued": "Data Science from Scratch (Issued);" },
+    { "roll": 98, "name": "Tanya Mishra", "balance": 375, "booksIssued": "Artificial Intelligence Basics (Issued);" },
+    { "roll": 99, "name": "Aditya Rao", "balance": 440, "booksIssued": "Think Python (Returned);" },
+    { "roll": 100, "name": "Mira Fernandes", "balance": 200, "booksIssued": "JavaScript: The Good Parts (Issued);" },
+    { "roll": 101, "name": "Arnav Kulkarni", "balance": 415, "booksIssued": "You Don’t Know JS (Issued);" },
+    { "roll": 102, "name": "Rachita Tiwari", "balance": 345, "booksIssued": "Eloquent JavaScript (Returned);" },
+    { "roll": 103, "name": "Kabir Desai", "balance": 285, "booksIssued": "Fluent Python (Issued);" },
+    { "roll": 104, "name": "Aditi Pillai", "balance": 500, "booksIssued": "Programming Pearls (Issued);" }
+  ],
+  "books": [
+    { "title": "Hello World", "author": "Author", "isbn": 125455, "available": false },
+    { "title": "Clean Code", "author": "Robert C. Martin", "isbn": 9780132350884, "available": true },
+    { "title": "The Pragmatic Programmer", "author": "Andrew Hunt", "isbn": 9780201616224, "available": false },
+    { "title": "Deep Work", "author": "Cal Newport", "isbn": 9781455586691, "available": false },
+    { "title": "The Art of Computer Programming", "author": "Donald Knuth", "isbn": 9780321751041, "available": true },
+    { "title": "Atomic Habits", "author": "James Clear", "isbn": 9780735211292, "available": false },
+    { "title": "Introduction to Algorithms", "author": "Thomas H. Cormen", "isbn": 9780262033848, "available": false },
+    { "title": "Python Crash Course", "author": "Eric Matthes", "isbn": 9781593276034, "available": true },
+    { "title": "Cracking the Coding Interview", "author": "Gayle Laakmann McDowell", "isbn": 9780984782857, "available": false },
+    { "title": "Design Patterns", "author": "Erich Gamma", "isbn": 9780201633610, "available": true },
+    { "title": "Refactoring", "author": "Martin Fowler", "isbn": 9780201485677, "available": false },
+    { "title": "The Clean Coder", "author": "Robert C. Martin", "isbn": 9780137081073, "available": false },
+    { "title": "Artificial Intelligence: A Modern Approach", "author": "Stuart Russell", "isbn": 9780136042594, "available": false },
+    { "title": "Computer Networks", "author": "Andrew S. Tanenbaum", "isbn": 9780132126953, "available": true },
+    { "title": "Operating System Concepts", "author": "Abraham Silberschatz", "isbn": 9781118063330, "available": false },
+    { "title": "Database System Concepts", "author": "Abraham Silberschatz", "isbn": 9780078022159, "available": false },
+    { "title": "Code Complete", "author": "Steve McConnell", "isbn": 9780735619678, "available": true },
+    { "title": "Soft Skills", "author": "John Sonmez", "isbn": 9781617292392, "available": false },
+    { "title": "Rework", "author": "Jason Fried", "isbn": 9780307463746, "available": false },
+    { "title": "Machine Learning Yearning", "author": "Andrew Ng", "isbn": 9781979853858, "available": false },
+    { "title": "Introduction to Machine Learning", "author": "Ethem Alpaydin", "isbn": 9780262028189, "available": false },
+    { "title": "The Mythical Man-Month", "author": "Fred Brooks", "isbn": 9780201835953, "available": true },
+    { "title": "The Lean Startup", "author": "Eric Ries", "isbn": 9780307887894, "available": false },
+    { "title": "Hooked", "author": "Nir Eyal", "isbn": 9781591847786, "available": false },
+    { "title": "Algorithms Unlocked", "author": "Thomas Cormen", "isbn": 9780262518802, "available": true },
+    { "title": "Data Science from Scratch", "author": "Joel Grus", "isbn": 9781491901427, "available": false },
+    { "title": "Artificial Intelligence Basics", "author": "Tom Taulli", "isbn": 9781484250273, "available": false },
+    { "title": "Think Python", "author": "Allen B. Downey", "isbn": 9781491939369, "available": true },
+    { "title": "JavaScript: The Good Parts", "author": "Douglas Crockford", "isbn": 9780596517748, "available": false },
+    { "title": "You Don’t Know JS", "author": "Kyle Simpson", "isbn": 9781491904244, "available": false }
+  ]
 }
