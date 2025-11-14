@@ -1,0 +1,190 @@
+.panel {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+/* ── Toolbar ── */
+.panel-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.6rem 0.9rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.search-input:focus { border-color: #1e3a5f; }
+
+.filter-select {
+  padding: 0.6rem 0.8rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.toolbar-info { font-size: 0.9rem; color: #555; flex: 1; }
+
+/* ── Buttons ── */
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+  white-space: nowrap;
+}
+.btn:hover:not(:disabled) { opacity: 0.88; }
+.btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary { background: #1e3a5f; color: #fff; }
+.btn-danger  { background: #dc3545; color: #fff; }
+.btn-ghost   { background: #f0f4f8; color: #333; }
+.btn-sm      { padding: 0.35rem 0.8rem; font-size: 0.82rem; }
+
+/* ── Form ── */
+.panel-form {
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.panel-form h3 { margin: 0 0 1rem; font-size: 1rem; color: #1e3a5f; }
+
+.form-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+.form-row input,
+.form-row select {
+  flex: 1;
+  min-width: 160px;
+  padding: 0.6rem 0.9rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.form-row input:focus,
+.form-row select:focus { border-color: #1e3a5f; }
+
+.form-actions { display: flex; gap: 0.6rem; margin-top: 0.5rem; }
+
+.panel-msg {
+  padding: 0.65rem 1rem;
+  background: #e8f5e9;
+  border-left: 4px solid #2d6a4f;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #1b4332;
+}
+
+/* ── Table ── */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th {
+  background: #f8fafc;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1.5px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #f0f4f8;
+  color: #2d3748;
+  vertical-align: middle;
+}
+.data-table tr:last-child td { border-bottom: none; }
+.data-table tr:hover td { background: #fafcff; }
+
+.row-overdue td { background: #fff5f5; }
+.row-overdue:hover td { background: #ffe8e8; }
+
+.empty-row { text-align: center; color: #aaa; padding: 2rem !important; }
+
+.actions-cell { display: flex; gap: 0.4rem; align-items: center; }
+
+.mono   { font-family: monospace; font-size: 0.85rem; }
+.muted  { color: #999; font-size: 0.82rem; }
+.text-red { color: #dc3545; font-weight: 600; }
+
+/* ── Badges ── */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.badge-green { background: #d1fae5; color: #065f46; }
+.badge-red   { background: #fee2e2; color: #991b1b; }
+.badge-blue  { background: #dbeafe; color: #1e40af; }
+.badge-gray  { background: #f1f5f9; color: #475569; }
+
+.fine-badge {
+  background: #dc3545; color: #fff;
+  padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.82rem; font-weight: 600;
+}
+
+.table-count { color: #888; font-size: 0.82rem; margin: 0.75rem 0 0; }
+
+/* ── Fines summary strip ── */
+.fines-summary-strip {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.summary-card {
+  flex: 1;
+  background: #f0f4f8;
+  border-radius: 12px;
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.summary-card.red { background: #fee2e2; }
+.summary-value { font-size: 2rem; font-weight: 700; color: #1e3a5f; }
+.summary-card.red .summary-value { color: #dc3545; }
+.summary-label { font-size: 0.8rem; color: #666; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.loading-text { color: #888; padding: 1rem 0; }
